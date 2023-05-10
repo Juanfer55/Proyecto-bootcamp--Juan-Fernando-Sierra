@@ -64,11 +64,6 @@ section > h2{
   margin-left: 6rem;
 }
 
-#descr{
-  margin-right: 8rem;
-  font-size: 28px;
-}
-
 #contenedor-servicio{
   display: flex;
   align-items: center;
@@ -88,7 +83,10 @@ section > h2{
 }
 
 footer{
-    background-color: rgb(29, 29, 29);
+  background-color: rgb(29, 29, 29);
+}
+
+#formulario-de-contacto{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -107,5 +105,22 @@ fieldset{
 #footer-button{
   margin-left: 2rem;
   margin-bottom: 2rem;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  font-size: 21px;
+  padding: 8px;
+  border-radius: 6px;
+  text-decoration: none;
 }
+
+#footer-button:hover{
+  background-color: rgb(36, 36, 36);
+  }
+
+#logo-footer{
+  width: 300px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
 
