@@ -13,7 +13,7 @@
 
         <header id="cabecera">
           <picture>
-            <a href="#"><img src="/Assets/Logo-cabecera.png" alt="Logo" id="logo-cabecera" /></a>
+            <a href="#sobre mi"><img src="/Assets/Logo-cabecera.png" alt="Logo" id="logo-cabecera" /></a>
           </picture>
           <nav class="barraDeNavegacion">
             <a href="#sobre mi">Sobre mi</a>
@@ -24,70 +24,68 @@
         </header>
 
         <main>
-        <section id="sobre-mi">
-          <h2>Sobre mi</h2>
-          <article id="presentacion">
-            <picture>
-              <img src="/Assets/Imagen-psicólogo.png" alt="Foto del Psicólogo" id="imagen-sobre-mi" />
-            </picture>
-            <p id="descripcion-profesional">Psicólogo egresado de la Universidad de San Buenaventuta con énfasis en el estudio e intervención de la salud mental, el comportamiento humano y la investigación de mercados.</p>
-          </article>
-        </section>
 
-        <section id="servicios">
-          <h2>Servicios</h2>
-          <div id="contenedor-servicio">
-          <article id="servicios-1" class="servicios-psicologia">
-            <picture>
-              <img src="/Assets/Atención-psicológica.png" alt="Imagen - Atención clínica precencial y virtual" class="imagenes-servicios" />
-            </picture>
-            <p>Atención clínica precencial y virtual</p>
+          <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <article id="presentacion">
+              <article>
+                <picture>
+                  <img src="/Assets/Imagen-psicólogo.png" alt="Foto del Psicólogo" id="imagen-sobre-mi" />
+                </picture>
+              </article>
+            
+              <article id="descripcion-psicologo">
+                <p id="descripcion-profesional">¡Hola! Mi nombre es Juan Fernando. Soy psicólogo egresado de la Universidad de San Buenaventuta con énfasis en el estudio e intervención de la salud mental y el comportamiento humano.</p><br>
+                <p>En este espacio, te invito a embarcarte en un viaje de autodescubrimiento y crecimiento personal para resignificar tus vivencias y construir una vida más satisfactoria.</p>
+              </article>
           </article>
+          </section>
 
-          <article id="servicios-2" class="servicios-psicologia">
-            <picture>
-              <img src="/Assets/Charlas-conferencias.png" alt="Imagen - Charlas y ponencias" class="imagenes-servicios" />
-            </picture>
-            <p>Charlas y ponencias</p>
-          </article>
+          <section id="servicios">
+            <h2>Servicios</h2>
+            <div id="contenedor-servicio">
+              <article id="servicios-1" class="servicios-psicologia">
+                <picture>
+                  <img src="/Assets/Atención-psicológica.png" alt="Imagen - Atención clínica precencial y virtual" class="imagenes-servicios" />
+                </picture>
+              </article>
 
-          <article id="servicios-3" class="servicios-psicologia">
-            <picture>
-              <img src="/Assets/Pruebas psicométricas.png" alt="Aplicación de pruebas psicotécnicas" class="imagenes-servicios" />
-            </picture>
-            <p>Aplicación de pruebas psicotécnicas</p>
-          </article>
-        </div>
-        </section>
+              <article id="servicios-2" class="servicios-psicologia">
+                <picture>
+                  <img src="/Assets/Charlas-conferencias.png" alt="Imagen - Charlas y ponencias" class="imagenes-servicios" />
+                </picture>
+              </article>
 
-        <section id="articulos">
-          <h2>Artículos</h2>
+              <article id="servicios-3" class="servicios-psicologia">
+                <picture>
+                  <img src="/Assets/Pruebas psicométricas.png" alt="Aplicación de pruebas psicotécnicas" class="imagenes-servicios" />
+                </picture>
+              </article>
+            </div>
+          </section>
 
-          <article>
-            <picture>
-              <img src="" alt="Imagen alusiva al artículo" />
-            </picture>
-            <p>Título del artículo</p>
-          </article>
+          <section id="articulos">
+            <h2>Artículos</h2>
+            <article id="contenedor-articulos">
+              <article>
+                <picture>
+                  <img src="" alt="Imagen alusiva al artículo" />
+                </picture>
+                <p>Título del artículo</p>
+              </article>
+            
 
-          <article>
-            <picture>
-              <img src="" alt="Imagen alusiva al artículo" />
-            </picture>
-            <p>Título del artículo</p>
-          </article>
-
-          <article>
-            <picture>
-              <img src="" alt="Imagen alusiva al artículo" />
-            </picture>
-            <p>Título del artículo</p>
-          </article>
-        </section>
+              <article>
+                <picture>
+                  <img src="" alt="Imagen alusiva al artículo" />
+                </picture>
+                <p>Título del artículo</p>
+              </article>
+            </article>
 
       </main>
         <footer id="contacto">
-          <h2>Contacto</h2>
+          <h2 id="title-contacto">Contacto</h2>
 
           <form action="#" method="post" enctype="multipart/form-data">
 
@@ -111,12 +109,12 @@
               <select name="options" id="">
                 <option value="1">Atención clínica precencial y virtual</option>
                 <option value="2">Charlas y ponencias</option>
-                <option value="3">Aplicación de pruebas psicotécnicas</option>
+                <option value="3">Pruebas psicométricas</option>
               </select>
             </fieldset>
           </form>
 
-          <button type="button">Enviar información</button>
+          <button type="button" id="footer-button">Enviar información</button>
 
         </footer>
       </body>
