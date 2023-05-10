@@ -5,7 +5,8 @@
 }
 
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 header{
@@ -37,7 +38,7 @@ background-color: rgb(36, 36, 36);
 }
 
 section > h2{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,6 +49,7 @@ section > h2{
   align-items: center;
   justify-content: space-around;
   margin: 3rem 3rem 3rem 3rem;
+  color: white;
 }
 
 #imagen-sobre-mi{
@@ -65,6 +67,11 @@ section > h2{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 3rem 3rem 3rem 3rem;
+  margin: 6rem 3rem 6rem 3rem;
 }
+
+.imagenes-servicios{
+  width: 300px;
+}
+
 
