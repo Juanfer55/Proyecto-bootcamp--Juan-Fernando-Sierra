@@ -12,9 +12,9 @@
       <body>
 
         <header id="cabecera">
-          <picture>
+          <nav id="cabecera-identidad">
             <a href="#sobre mi"><img src="/Assets/Logo-cabecera.png" alt="Logo" id="logo-cabecera" /></a>
-          </picture>
+          </nav>
           <nav class="barraDeNavegacion">
             <a href="#sobre mi">Sobre mi</a>
             <a href="#servicios">Servicios</a>
@@ -26,24 +26,23 @@
         <main>
 
           <section id="sobre-mi">
-            <h2>Sobre mi</h2>
-            <article id="presentacion">
-              <article>
-                <picture>
-                  <img src="/Assets/Imagen-psicólogo.png" alt="Foto del Psicólogo" id="imagen-sobre-mi" />
-                </picture>
-              </article>
+            <h2 id="titulo-sobre-mi">Sobre mi</h2>
+          
+              <picture id="imagen-sobre-mi">
+                <img src="/Assets/Imagen-psicólogo.png" alt="Foto del Psicólogo" id="img-sobre-mi"/>
+              </picture>
             
               <article id="descripcion-psicologo">
-                <p id="descripcion-profesional">¡Hola! Mi nombre es Juan Fernando. Soy psicólogo egresado de la Universidad de San Buenaventuta con énfasis en el estudio e intervención de la salud mental y el comportamiento humano.</p><br>
-                <p>En este espacio, te invito a embarcarte en un viaje de autodescubrimiento y crecimiento personal para resignificar tus vivencias y construir una vida más satisfactoria.</p>
+                <p class="descripcion-profesional">¡Hola! Mi nombre es Juan Fernando. Soy psicólogo egresado de la Universidad de San Buenaventuta con énfasis en el estudio e intervención de la salud mental y el comportamiento humano.</p>
+                <p class="descripcion-profesional">En este espacio, te invito a embarcarte en un viaje de autodescubrimiento y crecimiento personal para resignificar tus vivencias y construir una vida más satisfactoria.</p>
               </article>
-          </article>
           </section>
 
           <section id="servicios">
             <h2>Servicios</h2>
-            <!-- Preguntar qué contenedor puede contener un article -->
+            <!-- 
+            ul - li
+            -->
             <div id="contenedor-servicio">
               <article id="servicios-1" class="servicios-psicologia">
                 <picture>
