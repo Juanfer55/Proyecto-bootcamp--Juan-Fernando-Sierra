@@ -6,7 +6,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Psicólogo Juan Fernando Sierra</title>
-        <link rel="stylesheet" href="/CSS/styles.css" />
+        <link rel="stylesheet" href="/CSS/main.css" />
       </head>
 
       <body>
@@ -15,20 +15,20 @@
           <nav id="cabecera-identidad">
             <a href="#sobre mi"><img src="/Assets/Logo-cabecera.png" alt="Logo" id="logo-cabecera" /></a>
           </nav>
-          <nav class="barraDeNavegacion">
-            <a href="#sobre mi">Sobre mi</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#articulos">Artículos</a>
-            <a href="#contacto">Contacto</a>
+          <nav id="barra-de-nav">
+            <a href="#sobre mi" class="barra-de-navegacion">Sobre mi</a>
+            <a href="#servicios" class="barra-de-navegacion">Servicios</a>
+            <a href="#articulos" class="barra-de-navegacion">Artículos</a>
+            <a href="#contacto" class="barra-de-navegacion">Contacto</a>
           </nav>
         </header>
 
         <main>
-
+<!-- Sección 1-->
           <section id="sobre-mi">
             <h2 id="titulo-sobre-mi">Sobre mi</h2>
           
-              <picture id="imagen-sobre-mi">
+              <picture id="cont-imagen-sobre-mi">
                 <img src="/Assets/Imagen-psicólogo.png" alt="Foto del Psicólogo" id="img-sobre-mi"/>
               </picture>
             
@@ -37,90 +37,111 @@
                 <p class="descripcion-profesional">En este espacio, te invito a embarcarte en un viaje de autodescubrimiento y crecimiento personal para resignificar tus vivencias y construir una vida más satisfactoria.</p>
               </article>
           </section>
-
+<!-- Sección 2-->
           <section id="servicios">
             <h2>Servicios</h2>
-            <!-- 
-            ul - li
-            -->
-            <div id="contenedor-servicio">
-              <article id="servicios-1" class="servicios-psicologia">
-                <picture>
-                  <img src="/Assets/Atención-psicológica.png" alt="Imagen - Atención clínica precencial y virtual" class="imagenes-servicios" />
-                </picture>
-              </article>
 
-              <article id="servicios-2" class="servicios-psicologia">
-                <picture>
-                  <img src="/Assets/Charlas-conferencias.png" alt="Imagen - Charlas y ponencias" class="imagenes-servicios" />
-                </picture>
-              </article>
+            <ul id="contenedor-servicio">
+                
+              <li>
+                  <picture>
+                      <img src="/Assets/Atención-psicológica.png" alt="Imagen - Atención clínica precencial y virtual" class="imagenes-servicios" />
+                  </picture>
+                  <p>
+                      Descripción del servicio
+                  </p>
+              </li>
 
-              <article id="servicios-3" class="servicios-psicologia">
+            <li>
+                <picture>
+                    <img src="/Assets/Charlas-conferencias.png" alt="Imagen - Charlas y ponencias" class="imagenes-servicios" />
+                </picture>
+                <p>
+                    Descripción del servicio
+                </p>
+            </li>
+
+            <li>
                 <picture>
                   <img src="/Assets/Pruebas psicométricas.png" alt="Aplicación de pruebas psicotécnicas" class="imagenes-servicios" />
                 </picture>
-              </article>
-            </div>
+                <p>
+                    Descripción del servicio
+                </p>
+            </li>
           </section>
-
+<!-- Sección 3-->
           <section id="articulos">
-            <h2>Artículos</h2>
-            <article id="contenedor-articulos">
-              <article>
+              <h2>Artículos</h2>
+              
+            <ul id="contenedor-articulos">
+              <li>
                 <picture>
                   <img src="/Assets/Articulo-Familia 5.png" alt="Icono de familia" class="imagen-articulos" />
                 </picture>
-              </article>
+                <p>
+                    Leer más
+                </p>
+              </li>
             
-
-              <article>
+              <li>
                 <picture>
                   <img src="/Assets/articulo-ansiedad-y-depresion.png" alt="Icono de ansiedad y depresión" class="imagen-articulos" />
                 </picture>
-              </article>
-            </article>
+                <p>
+                    Leer más
+                </p>
+              </li>
+            </ul>
+          </section>
+        </main>
 
-      </main>
         <footer id="contacto">
 
-          <article id="formulario-de-contacto">
-            <h2 id="title-contacto">Contacto</h2>
-            <form action="#" method="post" enctype="multipart/form-data">
+          <h2 id="title-contacto">Contacto</h2>
+          <form action="#" method="post" enctype="multipart/form-data">
 
-              <fieldset>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" />
-              </fieldset>
+            <fieldset>
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" />
+            </fieldset>
 
-              <fieldset>
-                <label for="telefono">Teléfono</label>
-                <input type="number" id="telefono" name="telefono" />
-              </fieldset>
+            <fieldset>
+              <label for="telefono">Teléfono</label>
+              <input type="number" id="telefono" name="telefono" />
+            </fieldset>
 
-              <fieldset>
-                <label for="correoElectronico">Correo Electrónico</label>
-                <input type="text" id="correoElectronico" name="correoElectronico" />
-              </fieldset>
+            <fieldset>
+              <label for="correoElectronico">Correo Electrónico</label>
+              <input type="text" id="correoElectronico" name="correoElectronico" />
+            </fieldset>
 
-              <fieldset>
-                <h3>Cúal servicio es de su interés?</h3>
-                <select name="options" id="">
-                  <option value="1">Atención clínica precencial y virtual</option>
-                  <option value="2">Charlas y ponencias</option>
-                  <option value="3">Pruebas psicométricas</option>
-                </select>
-              </fieldset>
-              <button type="button" id="footer-button">Enviar información</button>
-            </form>
-          </article>
-
+            <fieldset>
+              <h3>Cúal servicio es de su interés?</h3>
+              <select name="options" id="">
+                <option value="1">Atención clínica precencial y virtual</option>
+                <option value="2">Charlas y ponencias</option>
+                <option value="3">Pruebas psicométricas</option>
+              </select>
+            </fieldset>
+            
+            <button type="button" id="footer-button">Enviar información</button>
+          </form>
+          
+          <picture>
+            <img src="/Assets/Logo-cabecera.png" alt="Logo" id="logo-footer" />
+          </picture>
           <article>
-            <picture>
-              <img src="/Assets/Logo-cabecera.png" alt="Logo" id="logo-footer" />
-            </picture>
-          </article>
-
+            <p>
+            Psicólogo Juan Fernando Sierra
+            </p>
+            <p>
+            Correo: psi.juanfsierra@gmail.comportamiento
+            </p>
+            <p>
+            Tel: 000 000 0000
+            </p>
+          
         </footer>
       </body>
     </html>
