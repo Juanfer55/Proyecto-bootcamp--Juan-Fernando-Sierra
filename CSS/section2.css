@@ -1,0 +1,25 @@
+#servicios{
+  background-color: rgb(14, 14, 14);
+  border-radius: 1rem;
+  margin: 3rem 3rem 5rem 3rem;
+}
+
+#titulo-servicios{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#contenedor-servicio{
+  display: flex;
+  justify-content:space-around;
+  padding-bottom: 5rem;
+  list-style: none;
+}
+
+.imagenes-servicios{
+  width: 350px;
+}
+
+
+
+

@@ -1,0 +1,48 @@
+#contacto{
+  background-color: rgb(14, 14, 14);
+}
+
+#title-contacto{
+padding-top: 3rem;
+padding-bottom: 1rem;
+padding-left: 1.7rem;
+font-size: 32px;
+}
+
+#form-contacto{
+  width: 38vh;
+  margin-left: 1.7rem;
+  padding-left: 1.7rem;
+  padding-top: 1.7rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  background-color: rgb(38, 38, 38);
+  border-radius: 1rem;
+  margin-bottom: 1.7rem;
+  font-size: 22px;
+}
+
+#footer-button{
+  margin-top: 1rem;
+  margin-right: 10rem;
+}
+
+#informacion-psico-contacto{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  margin-left: 1.7rem;
+  font-size: 15px;
+}
+
+#logo-footer{
+  width: 300px;
+  padding-left: 1.7rem;
+}
+
+
+
