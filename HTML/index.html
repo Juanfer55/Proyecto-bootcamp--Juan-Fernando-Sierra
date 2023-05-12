@@ -71,8 +71,10 @@
           </ul>
         </section>
 <!-- Sección 3-->
-          <section class="titutlo-de-seccion" id="articulos">
-            <h2 id="titulo-articulos">Artículos</h2>  
+        <section id="articulos-y-contacto">
+          <h2 id="title-articulos-y-contacto">Artículos y Contacto</h2>
+          <article class="titutlo-de-seccion" id="articulos">
+            <h3 id="titulo-articulos">Articulos</h3>
             <ul id="contenedor-articulos">
               <li id="articulo-1">
                 <picture id="pic-articulo-1">
@@ -82,7 +84,7 @@
                   Descubre más
                 </p>
               </li>
-              
+                
               <li id="articulo-2">
                 <picture id="pic-articulo-2">
                   <img src="/Assets/articulo-ansiedad-y-depresion.png" alt="Icono de ansiedad y depresión" class="imagen-articulos" />
@@ -92,50 +94,56 @@
                 </p>
               </li>
             </ul>
-          </section>
+          </article>  
+          <article class="titutlo-de-seccion" id="contacto">
+            <h3 id="title-contacto">Contacto</h3>
+            <form action="#" method="post" enctype="multipart/form-data" id="form-contacto">
+              <fieldset>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" />
+              </fieldset>
+    
+              <fieldset>
+                <label for="telefono">Teléfono</label>
+                <input type="number" id="telefono" name="telefono" />
+              </fieldset>
+    
+              <fieldset>
+                <label for="correoElectronico">Correo Electrónico</label>
+                <input type="text" id="correoElectronico" name="correoElectronico" />
+              </fieldset>
+    
+              <fieldset>
+                <h3>Cúal servicio es de su interés?</h3>
+                <select name="options" id="seleccionar-servicio">
+                  <option value="1">Atención clínica precencial y virtual</option>
+                  <option value="2">Charlas y ponencias</option>
+                  <option value="3">Pruebas psicométricas</option>
+                </select>
+              </fieldset>
+              <button type="button" id="footer-button">Enviar información</button>
+            </form>    
+          </article>
+        </section>
       </main>
 <!-- Footer y formulario-->
-        <footer id="contacto">
-          <h2 id="title-contacto">Contacto</h2>
-          <form action="#" method="post" enctype="multipart/form-data" id="form-contacto">
-            <fieldset>
-              <label for="nombre">Nombre</label>
-              <input type="text" id="nombre" name="nombre" />
-            </fieldset>
-
-            <fieldset>
-              <label for="telefono">Teléfono</label>
-              <input type="number" id="telefono" name="telefono" />
-            </fieldset>
-
-            <fieldset>
-              <label for="correoElectronico">Correo Electrónico</label>
-              <input type="text" id="correoElectronico" name="correoElectronico" />
-            </fieldset>
-
-            <fieldset>
-              <h3>Cúal servicio es de su interés?</h3>
-              <select name="options" id="seleccionar-servicio">
-                <option value="1">Atención clínica precencial y virtual</option>
-                <option value="2">Charlas y ponencias</option>
-                <option value="3">Pruebas psicométricas</option>
-              </select>
-            </fieldset>
-            <button type="button" id="footer-button">Enviar información</button>
-          </form>
-          
-          <picture>
-            <img src="/Assets/Logo-cabecera.png" alt="Logo" id="logo-footer" />
-          </picture>
-          <article id="informacion-psico-contacto">
-            <h3>Psicólogo Juan Fernando Sierra</h3>
-            <p>
-            Correo: psi.juanfsierra@gmail.com
-            </p>
-            <p>
-            Tel: 000 000 0000
-            </p>
-          </article>
+        <footer id="contacto-footer">
+          <ul id="informacion-psico-contacto">
+            <li id="cont-informacion-psico-contacto">
+              <picture id="pic-imagen-footer">
+                <img src="/Assets/Logo-footer.png" alt="Logo" id="logo-footer" />
+              </picture>
+            </li>
+            <li id="cont-texto-footer">
+              <h3>Psicólogo Juan Fernando Sierra</h3>
+              <p>
+              Correo: psi.juanfsierra@gmail.com
+              </p>
+              <p>
+              Tel: 000 000 0000
+              </p>
+            </li>
+          </ul>
         </footer>
     </body>
   </html>
