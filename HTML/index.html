@@ -31,10 +31,10 @@
                   <img src="/Assets/Imagen-psicólogo.png" alt="Foto del Psicólogo" id="img-sobre-mi"/>
                 </picture>
               </li>
-              <li id="cont-texto-sobre-mi" class="descripcion-psicologo">
-                <h3>¡Hola!</h3>
+              <li id="cont-texto-sobre-mi">
+                <h3 id="title-hola">¡Hola!</h3>
                 <p class="descripcion-profesional">Mi nombre es Juan Fernando Sierra. Soy psicólogo egresado de la Universidad de San Buenaventuta con énfasis en el estudio e intervención de la salud mental y el comportamiento humano.</p>
-                <p class="descripcion-profesional">En este espacio, te invito a embarcarte en un viaje de autodescubrimiento y crecimiento personal para resignificar tus vivencias y construir una vida más satisfactoria.</p>
+                <p class="descripcion-profesional" id="cierre-sobre-mi">En este espacio, te invito a embarcarte en un viaje de autodescubrimiento y crecimiento personal para resignificar tus vivencias y construir una vida más satisfactoria.</p>
               </li>
             </ul>
         </section>
@@ -98,30 +98,32 @@
           <article class="titutlo-de-seccion" id="contacto">
             <h3 id="title-contacto">Contacto</h3>
             <form action="#" method="post" enctype="multipart/form-data" id="form-contacto">
-              <fieldset>
+              <fieldset id="form-nombre">
                 <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" />
+                <input type="text" id="input-nombre" name="nombre" />
               </fieldset>
     
-              <fieldset>
+              <fieldset id="form-tel">
                 <label for="telefono">Teléfono</label>
-                <input type="number" id="telefono" name="telefono" />
+                <input type="number" id="input-telefono" name="telefono" />
               </fieldset>
     
-              <fieldset>
-                <label for="correoElectronico">Correo Electrónico</label>
-                <input type="text" id="correoElectronico" name="correoElectronico" />
+              <fieldset id="form-correo">
+                <label for="correoElectronico">Correo</label>
+                <input type="text" id="input-correo" name="correoElectronico" />
               </fieldset>
     
-              <fieldset>
-                <h3>Cúal servicio es de su interés?</h3>
-                <select name="options" id="seleccionar-servicio">
+              <fieldset id="form-servicios">
+                <label for="options">Servicio</label>
+                <select name="options" id="input-servicios">
                   <option value="1">Atención clínica precencial y virtual</option>
                   <option value="2">Charlas y ponencias</option>
                   <option value="3">Pruebas psicométricas</option>
                 </select>
               </fieldset>
-              <button type="button" id="footer-button">Enviar información</button>
+              <fieldset>
+                <button type="button" id="footer-button">Enviar</button>
+              </fieldset>
             </form>    
           </article>
         </section>

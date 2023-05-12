@@ -1,14 +1,15 @@
 #sobre-mi{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
   background-color: rgb(14, 14, 14);
   border-radius: 1rem;
-  margin: 3rem 3rem 7rem 3rem;
+  margin: 3rem 3rem 5rem 3rem;
 }
 
 #titulo-sobre-mi{
-  grid-row: 1/2;
-  grid-column: 1/3;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
@@ -16,11 +17,8 @@
 #cont-sobre-mi{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   list-style: none;
-}
-
-#imagen-sobre-mi{
-  width: 200px;
 }
 
 #img-sobre-mi{
@@ -28,21 +26,44 @@
   padding-left: 20vh;
 }
 
-.descripcion-psicologo{
-  padding-top: 4.5rem;
+#title-hola{
+  font-size: 50px;
+  padding-top: 3rem;
   padding-left: 4.5rem;
 }
 
-.descripcion-psicologo > h3{
+.descripcion-profesional{
+  padding-top: 4.5rem;
+  padding-left: 4.5rem;
   text-align: left;
-  font-size: 50px;
   padding-top: 3rem;
-}
-
-.descripcion-psicologo > p{
   text-align: justify;
   font-size: 22px;
   padding-top: 2rem;
-  padding-right: 10rem;
+  padding-right: 5rem;
 }
 
+@media (max-width: 910px) {
+  #cont-sobre-mi{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #img-sobre-mi{
+  padding-left: 0vh;
+  }
+
+  #title-hola{
+  padding-top: 0rem;
+  }
+  #cierre-sobre-mi{
+    padding-bottom: 4.5rem;
+  }
+
+  .descripcion-profesional{
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+
+}
