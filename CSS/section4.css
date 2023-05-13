@@ -1,0 +1,129 @@
+#contacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 50%;
+  background-color: rgb(14, 14, 14);
+  border-radius: 1rem;
+  margin-bottom: 7rem;
+  padding-bottom: 4.5rem;
+}
+
+#title-contacto{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#cont-logo-contacto{
+  justify-items: center;
+}
+
+#logo-contacto{
+  width: 50%;
+  padding-bottom: 2rem;
+  
+}
+
+#form-contacto{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  gap: 1rem;
+  background-color: rgb(38, 38, 38);
+  border-radius: 1rem;
+  font-size: 17px;
+  padding-left: 1.7rem;
+  padding-top: 1.7rem;
+  padding-bottom: 4.5remrem;
+  display: flex;
+}
+
+#form-nombre{
+  background-color: rgb(24, 24, 24);
+  padding: 0.5rem;
+  width: 95%;
+  border-radius: 1rem;
+  font-size: 20px;
+}
+
+#input-nombre{
+  background-color: rgb(24, 24, 24);
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 20px;
+  color: white;
+}
+
+#form-tel{
+  background-color: rgb(24, 24, 24);
+  padding: 0.5rem;
+  width: 95%;
+  border-radius: 1rem;
+  font-size: 20px;
+}
+
+#input-telefono{
+  background-color: rgb(24, 24, 24);
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 20px;
+  color: white;
+}
+
+#form-correo{
+  background-color: rgb(24, 24, 24);
+  padding: 0.5rem;
+  width: 95%;
+  border-radius: 1rem;
+  font-size: 20px;
+}
+
+#input-correo{
+  background-color: rgb(24, 24, 24);
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 20px;
+  color: white;
+}
+
+#form-servicios{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 24, 24);
+  padding: 0.5rem;
+  width: 95%;
+  border-radius: 1rem;
+  font-size: 20px;
+}
+
+#input-servicios{
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  border-radius: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#footer-button{
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 30%;
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 18px;
+  
+}
+
+@media (max-width: 910px){
+  
+}

@@ -1,22 +1,7 @@
-#articulos-y-contacto{
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-between;
-  gap: 15vh;
-}
-
-#title-articulos-y-contacto{
-  display: none;
-}
-
-
 #articulos{
   display: flex;
   flex-direction: column;
-  width: 80%;
-  height: 63vh;
+  width: 90%;
   background-color: rgb(14, 14, 14);
   border-radius: 1rem;
   margin: 2rem 0rem 8rem 0rem;
@@ -78,129 +63,10 @@
   font-size: 17px;
 }
 
-#contacto{
-  background-color: rgb(14, 14, 14);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  border-radius: 1rem;
-  margin: 2rem 0rem 8rem 0rem;
-}
-
-#title-contacto{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-#form-contacto{
-  width: 85%;
-  flex-direction: column;
-  gap: 1rem;
-  background-color: rgb(38, 38, 38);
-  border-radius: 1rem;
-  font-size: 17px;
-  padding-left: 1.7rem;
-  padding-top: 1.7rem;
-  padding-bottom: 1.7rem;
-  display: flex;
-}
-
-#form-nombre{
-  background-color: rgb(24, 24, 24);
-  padding: 0.5rem;
-  width: 75%;
-  border-radius: 1rem;
-  font-size: 20px;
-}
-
-#input-nombre{
-  background-color: rgb(255, 255, 255);
-  height: 1.5rem;
-  border-radius: 0.3rem;
-  padding-left: 0.3rem;
-}
-
-#form-tel{
-  background-color: rgb(24, 24, 24);
-  padding: 0.5rem;
-  width: 75%;
-  border-radius: 1rem;
-  font-size: 20px;
-}
-
-#input-telefono{
-  background-color: rgb(255, 255, 255);
-  height: 1.5rem;
-  border-radius: 0.3rem;
-  padding-left: 0.3rem;
-}
-
-#form-correo{
-  background-color: rgb(24, 24, 24);
-  padding: 0.5rem;
-  width: 75%;
-  border-radius: 1rem;
-  font-size: 20px;
-}
-
-#input-correo{
-  background-color: rgb(255, 255, 255);
-  height: 1.5rem;
-  border-radius: 0.3rem;
-  padding-left: 0.3rem;
-  width: 72%;
-}
-
-#form-servicios{
-  background-color: rgb(24, 24, 24);
-  padding: 0.5rem;
-  width: 88%;
-  border-radius: 1rem;
-  font-size: 20px;
-}
-
-#input-servicios{
-  background-color: rgb(255, 255, 255);
-  height: 1.5rem;
-  border-radius: 0.3rem;
-  padding-left: 0.3rem;
-}
-
-#footer-button{
-  margin-top: 0rem;
-  width: 30%;
-  background-color: rgb(24, 24, 24);
-  color: aliceblue;
-  padding: 0.5rem;
-  border-radius: 1rem;
-  font-size: 18px;
-}
-
 @media (max-width: 910px){
-  #articulos-y-contacto{
+  #contenedor-articulos{
     flex-direction: column;
     align-items: center;
-    width: 90%;
     margin-bottom: 0rem;
-  }
-
-  #articulos{
-    width: 100%;
-    margin-bottom: 1rem
-  }
-
-  #contacto{
-    width: 100%;
-    padding-bottom: 4.5rem;
-    margin-top: 0rem;
-  }
-
-  #form-contacto{
-    width: 80%;
-  }
-
-  #form-servicios{
-    width: 75%;
   }
 }

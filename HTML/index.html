@@ -71,10 +71,8 @@
           </ul>
         </section>
 <!-- Sección 3-->
-        <section id="articulos-y-contacto">
-          <h2 id="title-articulos-y-contacto">Artículos y Contacto</h2>
-          <article class="titutlo-de-seccion" id="articulos">
-            <h3 id="titulo-articulos">Articulos</h3>
+        <section class="titutlo-de-seccion" id="articulos">
+            <h2 id="titulo-articulos">Articulos</h2>
             <ul id="contenedor-articulos">
               <li id="articulo-1">
                 <picture id="pic-articulo-1">
@@ -94,38 +92,33 @@
                 </p>
               </li>
             </ul>
-          </article>  
-          <article class="titutlo-de-seccion" id="contacto">
-            <h3 id="title-contacto">Contacto</h3>
+        </section>
+        <!-- Section 4 -->
+        <section class="titutlo-de-seccion" id="contacto">
+          <h2 id="title-contacto">Contacto</h2>
+            <picture id="cont-logo-contacto">
+              <img src="/Assets/Logo-footer.png" alt="logo" id="logo-contacto">
+            </picture>
             <form action="#" method="post" enctype="multipart/form-data" id="form-contacto">
               <fieldset id="form-nombre">
-                <label for="input-nombre">Nombre  </label>
-                <input type="text" id="input-nombre" name="nombre" />
+                <input type="text" id="input-nombre" name="nombre" placeholder="Nombre"/>
               </fieldset>
     
               <fieldset id="form-tel">
-                <label for="input-telefono">Teléfono</label>
-                <input type="number" id="input-telefono" name="telefono" />
+                <input type="tel" id="input-telefono" name="telefono" placeholder="Teléfono" maxlength="10" />
               </fieldset>
     
               <fieldset id="form-correo">
-                <label for="input-correo">Correo</label>
-                <input type="text" id="input-correo" name="correoElectronico" />
+                <input type="email" id="input-correo" name="correoElectronico" placeholder="Email" />
               </fieldset>
     
               <fieldset id="form-servicios">
-                <label for="input-servicios">Servicio</label>
-                <select name="options" id="input-servicios">
-                  <option value="1">Atención clínica precencial y virtual</option>
-                  <option value="2">Charlas y ponencias</option>
-                  <option value="3">Pruebas psicométricas</option>
-                </select>
+                <textarea id="input-servicios" name="mas-informacion" rows="5" cols="50" placeholder="Cuéntanos más sobre tus necesidades"></textarea>
               </fieldset>
               <fieldset>
-                <button type="button" id="footer-button">Enviar</button>
+                <button type="submit" id="footer-button">Enviar</button>
               </fieldset>
-            </form>    
-          </article>
+            </form>   
         </section>
       </main>
 <!-- Footer -->
@@ -144,6 +137,17 @@
               <p>
               Tel: 000 000 0000
               </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <span></span>
+            </li>
+            <li>
+              <span></span>
+            </li>
+            <li>
+              <span></span>
             </li>
           </ul>
         </footer>
