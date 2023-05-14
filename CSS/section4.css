@@ -7,7 +7,7 @@
   background-color: rgb(14, 14, 14);
   border-radius: 1rem;
   margin-bottom: 7rem;
-  padding-bottom: 4.5rem;
+  padding-bottom: 2rem;
 }
 
 #title-contacto{
@@ -15,25 +15,30 @@
   padding-bottom: 3rem;
 }
 
-#cont-logo-contacto{
+#cont-contacto{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
   justify-items: center;
+  width: 100%;
 }
-
-#logo-contacto{
-  width: 50%;
-  padding-bottom: 2rem;
-  
+#cont-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 #form-contacto{
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 85%;
   gap: 1rem;
   background-color: rgb(38, 38, 38);
   border-radius: 1rem;
   font-size: 17px;
-  padding-left: 1.7rem;
   padding-top: 1.7rem;
   padding-bottom: 4.5remrem;
   display: flex;
@@ -112,16 +117,31 @@
   color: rgb(255, 255, 255);
 }
 
-#footer-button{
-  margin-top: 0rem;
+#button-servicios{
   margin-bottom: 1rem;
-  width: 30%;
+  width: 15%;
   background-color: rgb(24, 24, 24);
   color: aliceblue;
   padding: 0.5rem;
   border-radius: 1rem;
   font-size: 18px;
-  
+  text-align: center;
+}
+
+#button-form{
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+  border-radius: 1rem;
+  font-size: 18px;
+}
+
+#logo-cont{
+  width: 13%;
+  margin-top: 2rem;
+}
+
+#logo-contacto{
+  width: 100%;
 }
 
 @media (max-width: 910px){

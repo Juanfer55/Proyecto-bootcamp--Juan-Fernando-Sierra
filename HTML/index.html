@@ -96,29 +96,35 @@
         <!-- Section 4 -->
         <section class="titutlo-de-seccion" id="contacto">
           <h2 id="title-contacto">Contacto</h2>
-            <picture id="cont-logo-contacto">
-              <img src="/Assets/Logo-footer.png" alt="logo" id="logo-contacto">
-            </picture>
-            <form action="#" method="post" enctype="multipart/form-data" id="form-contacto">
-              <fieldset id="form-nombre">
-                <input type="text" id="input-nombre" name="nombre" placeholder="Nombre"/>
-              </fieldset>
-    
-              <fieldset id="form-tel">
-                <input type="tel" id="input-telefono" name="telefono" placeholder="Teléfono" maxlength="10" />
-              </fieldset>
-    
-              <fieldset id="form-correo">
-                <input type="email" id="input-correo" name="correoElectronico" placeholder="Email" />
-              </fieldset>
-    
-              <fieldset id="form-servicios">
-                <textarea id="input-servicios" name="mas-informacion" rows="5" cols="50" placeholder="Cuéntanos más sobre tus necesidades"></textarea>
-              </fieldset>
-              <fieldset>
-                <button type="submit" id="footer-button">Enviar</button>
-              </fieldset>
-            </form>   
+          <ul id="cont-contacto">
+            <li id="cont-form">
+              <form action="#" method="post" enctype="multipart/form-data" id="form-contacto">
+                <fieldset id="form-nombre">
+                  <input type="text" id="input-nombre" name="nombre" placeholder="Nombre"/>
+                </fieldset>
+      
+                <fieldset id="form-tel">
+                  <input type="tel" id="input-telefono" name="telefono" placeholder="Teléfono" maxlength="10" />
+                </fieldset>
+      
+                <fieldset id="form-correo">
+                  <input type="email" id="input-correo" name="correoElectronico" placeholder="Email" />
+                </fieldset>
+      
+                <fieldset id="form-servicios">
+                  <textarea id="input-servicios" name="mas-informacion" rows="5" cols="50" placeholder="Cuéntanos más sobre tus necesidades"></textarea>
+                </fieldset>
+                <fieldset id="button-servicios">
+                  <button type="submit" id="button-form">Enviar</button>
+                </fieldset>
+              </form>
+            </li>
+            <li id="logo-cont">
+              <picture id="cont-logo-contacto">
+                <img src="/Assets/Logo-footer.png" alt="logo" id="logo-contacto">
+              </picture>
+            </li>  
+          </ul>
         </section>
       </main>
 <!-- Footer -->
@@ -141,13 +147,13 @@
           </ul>
           <ul>
             <li>
-              <span></span>
+              <span class="estilo-span"></span>
             </li>
             <li>
-              <span></span>
+              <span class="estilo-span"></span>
             </li>
             <li>
-              <span></span>
+              <span class="estilo-span"></span>
             </li>
           </ul>
         </footer>
