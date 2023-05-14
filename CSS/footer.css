@@ -1,10 +1,9 @@
 #contacto-footer{
-  background-color: rgb(14, 14, 14);
   display: flex;
   flex-direction: row;
-  align-content:center;
-  justify-content:space-between;
-  padding-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(19, 19, 19);
   margin: 0rem 0rem 0rem 0rem;
 }
 #informacion-psico-contacto{
@@ -12,6 +11,7 @@
   flex-direction: row;
   list-style: none;
   gap: 1.5rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -28,5 +28,26 @@
 
 #cont-texto-footer{
   padding-top: 0.5rem;
-  font-size: 10px;
+  font-size: 11px;
+}
+
+#redes-sociales-footer{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 1.5em;
+  margin-right: 2%;
+  list-style: none;
+}
+
+#logo-twitter{
+  color: rgb(255, 255, 255);
+}
+
+#logo-instagram{
+  color: rgb(255, 255, 255);
+}
+
+#logo-youtube{
+  color: rgb(255, 255, 255);
 }

@@ -21,6 +21,7 @@
   flex-direction: row;
   padding-bottom: 5rem;
   list-style: none;
+  gap: 2rem;
 }
 
 .imagen-articulos{
