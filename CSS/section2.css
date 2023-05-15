@@ -20,7 +20,16 @@
   grid-template-rows: 1fr 4rem;
   text-align: center;
   gap: 1rem;
+  background-color: rgb(21, 21, 21);
+  border-radius: 1.4rem;
+  border-bottom: rgb(80, 80, 80) .2rem solid;
 }
+
+.servicios:hover{
+  background-color: rgb(39, 39, 39);
+}
+
+
 
 .pic-servicios{
   grid-row: 1/2;
