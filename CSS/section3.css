@@ -1,13 +1,5 @@
 #articulos{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 90%;
-  background-color: rgb(14, 14, 14);
-  border-radius: 1rem;
-  margin: 3rem 3rem 3rem 3rem;
-  padding-bottom: 4.5rem
+  padding-bottom: 4.5rem;
 }
 
 #contenedor-articulos{
@@ -43,7 +35,7 @@
 
 .parrafo-articulos{
   width: 70%;
-  font-size: 2vh;
+  font-size: 2.2vh;
   text-align: justify;
   padding-right: 5vh;
 }
@@ -65,11 +57,17 @@
 }
 
 @media (max-width: 1070px){
-
+  .parrafo-articulos{
+    font-size: 2.2vh;
+  }
 }
 
 @media (max-width: 601px){
+  #articulos{
+    padding-bottom: 3rem;
+  }
   .parrafo-articulos{
+    font-size: 1.9vh;
     width: 100%;
   }
 }
