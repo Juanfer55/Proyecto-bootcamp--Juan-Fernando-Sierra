@@ -10,11 +10,6 @@
   padding-bottom: 4.5rem
 }
 
-#title-contacto{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 #cont-contacto{
   display: flex;
   flex-direction: column;
@@ -23,6 +18,7 @@
   justify-items: center;
   width: 100%;
 }
+
 #cont-form{
   display: flex;
   flex-direction: column;
@@ -44,7 +40,7 @@
   display: flex;
 }
 
-#form-nombre{
+.fieldset{
   background-color: rgb(24, 24, 24);
   padding: 0.5rem;
   width: 95%;
@@ -52,7 +48,7 @@
   font-size: 20px;
 }
 
-#input-nombre{
+.input-form{
   background-color: rgb(24, 24, 24);
   height: 1.5rem;
   width: 100%;
@@ -60,52 +56,6 @@
   padding-left: 0.3rem;
   font-size: 20px;
   color: white;
-}
-
-#form-tel{
-  background-color: rgb(24, 24, 24);
-  padding: 0.5rem;
-  width: 95%;
-  border-radius: 1rem;
-  font-size: 20px;
-}
-
-#input-telefono{
-  background-color: rgb(24, 24, 24);
-  height: 1.5rem;
-  width: 100%;
-  border-radius: 0.3rem;
-  padding-left: 0.3rem;
-  font-size: 20px;
-  color: white;
-}
-
-#form-correo{
-  background-color: rgb(24, 24, 24);
-  padding: 0.5rem;
-  width: 95%;
-  border-radius: 1rem;
-  font-size: 20px;
-}
-
-#input-correo{
-  background-color: rgb(24, 24, 24);
-  height: 1.5rem;
-  width: 100%;
-  border-radius: 0.3rem;
-  padding-left: 0.3rem;
-  font-size: 20px;
-  color: white;
-}
-
-#form-servicios{
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(24, 24, 24);
-  padding: 0.5rem;
-  width: 95%;
-  border-radius: 1rem;
-  font-size: 20px;
 }
 
 #input-servicios{
@@ -119,7 +69,7 @@
 
 #button-servicios{
   margin-bottom: 1rem;
-  width: 15%;
+  width: 10%;
   background-color: rgb(24, 24, 24);
   color: aliceblue;
   padding: 0.5rem;
@@ -135,15 +85,14 @@
   font-size: 18px;
 }
 
-#logo-cont{
-  width: 13%;
-  margin-top: 2rem;
+@media (max-width: 1400px){
+  #contacto{
+    width: 70%;
+  }
 }
 
-#logo-contacto{
-  width: 100%;
-}
-
-@media (max-width: 910px){
-  
+@media (max-width: 1070px){
+  #contacto{
+    width: 90%;
+  }
 }
