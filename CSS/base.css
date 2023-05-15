@@ -29,6 +29,8 @@ main{
 .titutlo-de-seccion > h2{
   font-weight: bold;
   font-size: 5vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 

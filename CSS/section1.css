@@ -6,12 +6,7 @@
   width: 90%;
   background-color: rgb(14, 14, 14);
   border-radius: 1rem;
-  margin: 3rem 3rem 5rem 3rem;
-}
-
-#titulo-sobre-mi{
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  margin: 3rem 3rem 3rem 3rem;
 }
 
 #cont-sobre-mi{
@@ -40,7 +35,7 @@
 
 .descripcion-profesional{
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 2.2vh;
 }
 
 @media (max-width: 1400px) {
@@ -57,6 +52,10 @@
   #cont-texto-sobre-mi{
     padding-top: 0rem;
     padding-right: 4.5rem;
+  }
+
+  .descripcion-profesional{
+    font-size: 2vh;
   }
 }
 
@@ -78,8 +77,7 @@
   }
   
   .descripcion-profesional{
-    text-align: justify;
-    font-size: 1.2rem;
+    font-size: 2vh;
   }
 
 }
