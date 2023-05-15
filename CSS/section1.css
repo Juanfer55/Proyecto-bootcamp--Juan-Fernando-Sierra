@@ -18,52 +18,68 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
 #img-sobre-mi{
-  width: 500px;
-  padding-left: 20vh;
+  width: 37.5rem;
+  padding-left: 8rem;
+}
+
+#cont-texto-sobre-mi{
+  display: flex;
+  flex-direction: column;
+  padding: 4.5rem 8rem 4.5rem 4.5rem;
+  gap: 1.5rem;
 }
 
 #title-hola{
-  font-size: 50px;
-  padding-top: 3rem;
-  padding-left: 4.5rem;
+  font-size: 3.2rem;
 }
 
 .descripcion-profesional{
-  padding-top: 4.5rem;
-  padding-left: 4.5rem;
-  text-align: left;
-  padding-top: 3rem;
   text-align: justify;
-  font-size: 22px;
-  padding-top: 2rem;
-  padding-right: 5rem;
+  font-size: 1.4rem;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 1400px) {
   #cont-sobre-mi{
     flex-direction: column;
     align-items: center;
   }
 
   #img-sobre-mi{
-  padding-left: 0vh;
+    width: 27.5rem;
+    padding-left: 0rem;
+  }
+
+  #cont-texto-sobre-mi{
+    padding-top: 0rem;
+    padding-right: 4.5rem;
+  }
+}
+
+@media (max-width: 600px){
+  #sobre-mi{
+    margin-top: 1rem;
+  }
+  #cont-texto-sobre-mi{
+    padding: 0rem 2rem 2rem 2rem;
+  }
+
+  #img-sobre-mi{
+    width: 15.5rem;
+    padding-left: 0rem;
   }
 
   #title-hola{
-  padding-top: 0rem;
+    font-size: 2.5rem;
   }
-  #cierre-sobre-mi{
-    padding-bottom: 4.5rem;
-  }
-
+  
   .descripcion-profesional{
-    padding-top: 3rem;
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
+    text-align: justify;
+    font-size: 1.2rem;
   }
 
 }
