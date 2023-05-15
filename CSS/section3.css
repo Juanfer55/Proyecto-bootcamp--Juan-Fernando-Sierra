@@ -49,43 +49,27 @@
 }
 
 @media (max-width: 1400px){
-  .textos-servicios{
-    font-size: 1.5vh;
+  .articulos-global{
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  .parrafo-articulos{
+    width: 95%;
+    font-size: 1.8vh;
+    text-align: justify;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-right: 0rem;
   }
 }
 
 @media (max-width: 1070px){
-  #contenedor-servicio{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-  }
 
-  .servicios{
-    width: 55%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4rem;
-    text-align: center;
-    gap: 1rem;
-  }
-  
-  .textos-servicios{
-    font-size: 2vh;
-  }
 }
 
 @media (max-width: 601px){
-  #servicios{
-    padding-bottom: 2rem;
-  }
-
-  .servicios{
-    width: 80%;
-  }
-
-  .textos-servicios{
-    font-size: 2vh;
+  .parrafo-articulos{
+    width: 100%;
   }
 }
