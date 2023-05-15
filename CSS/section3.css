@@ -8,7 +8,7 @@
   flex-direction: column;  
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 3rem;
 }
 
@@ -34,10 +34,12 @@
 }
 
 .parrafo-articulos{
-  width: 70%;
+  width: 66%;
   font-size: 2.2vh;
   text-align: justify;
-  padding-right: 5vh;
+  background-color: rgb(26, 26, 26);
+  border-radius: 1.4rem;
+  padding: 1rem;
 }
 
 @media (max-width: 1400px){
@@ -51,8 +53,6 @@
     text-align: justify;
     justify-items: center;
     align-items: center;
-    padding-bottom: 1rem;
-    padding-right: 0rem;
   }
 }
 
