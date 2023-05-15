@@ -72,10 +72,10 @@
 @media (max-width: 601px){
   #contenedor-servicio{
     padding-bottom: 3rem;
-  }.servicios{
+  }
+  .servicios{
     width: 80%;
   }
-
   .textos-servicios{
     font-size: 2vh;
   }
