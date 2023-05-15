@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  width: 85%;
 }
 
 #img-sobre-mi{
@@ -14,12 +15,20 @@
 #cont-texto-sobre-mi{
   display: flex;
   flex-direction: column;
-  padding: 4.5rem 8rem 10.5rem 4.5rem;
+  padding: 4.5rem 0rem 10.5rem 4.5rem;
   gap: 1.5rem;
 }
 
 #title-hola{
   font-size: 3.2rem;
+}
+
+#style-title-hola{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: bold;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
 }
 
 .descripcion-profesional{
@@ -39,9 +48,7 @@
   }
 
   #cont-texto-sobre-mi{
-    padding-top: 0rem;
-    padding-right: 4.5rem;
-    padding-bottom: 4.5rem;
+    padding: 0rem 0rem 4.5rem 0rem;
   }
 
   .descripcion-profesional{
@@ -54,7 +61,7 @@
     margin-top: 1rem;
   }
   #cont-texto-sobre-mi{
-    padding: 0rem 2rem 2rem 2rem;
+    padding: 0rem 0rem 2rem 0rem;
   }
 
   #img-sobre-mi{
