@@ -45,12 +45,17 @@ background-color: rgb(36, 36, 36);
   }
 
   #cabecera-identidad{
-    width: 80%;
+    width: 70%;
+    margin-right: 4.3vh;
+  }
+
+  #boton-menu-header{
+    background: none;
   }
 
   #barras-menu{
     display: block;
-    padding-left: 3%;
+    color: rgb(124, 124, 124);
   }
   
   #logo-cabecera{
