@@ -27,7 +27,6 @@ header{
   background-color: rgb(19, 19, 19);
   padding: 1rem;
   margin-bottom: 2rem;
-  height: 100%;
   width: 100%;
 }
 
@@ -68,7 +67,9 @@ footer{
 }
 
 @media (max-width: 1000px){
-  .section{
+  header{
+    flex-direction: column;
+  }.section{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }

@@ -2,11 +2,16 @@
   width: 45vh;
 }
 
+#barra-de-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+}
+
 .barra-de-navegacion{
   background-color: rgb(45, 45, 45);
   color: white;
   font-size: 1.4rem;
-  margin-left: 1.4rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -16,26 +21,47 @@
 background-color: rgb(36, 36, 36);
 }
 
+#barras-menu{
+  display: none;
+}
+
 @media (max-width: 1070px) {
   #cabecera{
     flex-direction: column;
     gap: 1.5rem;
     padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @media (max-width: 601px){
   #cabecera{
-    gap: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     padding: 1.5rem;
-    align-items: center;
-    justify-content: center;
-  }
-  #barra-de-nav{
-    display: none;
   }
 
+  #cabecera-identidad{
+    width: 80%;
+  }
+
+  #barras-menu{
+    display: block;
+    padding-left: 3%;
+  }
+  
   #logo-cabecera{
-    width: 40vh;
+    width: 100%;
+  }
+
+  #barra-de-nav{
+    flex-direction: column;
+  }
+
+  .menu-plegado .barra-de-navegacion {
+    display: none;
   }
 }

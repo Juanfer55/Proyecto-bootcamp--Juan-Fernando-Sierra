@@ -63,6 +63,9 @@
 }
 
 @media (max-width: 601px){
+  .articulos-global{
+    padding: 1rem;
+  }
   #articulos{
     padding-bottom: 3rem;
   }
