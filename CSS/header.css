@@ -47,28 +47,13 @@ background-color: rgb(36, 36, 36);
 
   #cabecera-identidad{
     width: 70%;
-    margin-right: 4.8vh;
   }
 
-  #boton-menu-header{
-    background: none;
-    width: 10%;
-  }
-
-  #barras-menu{
-    display: block;
-    color: rgb(124, 124, 124);
-  }
-  
   #logo-cabecera{
     width: 100%;
   }
-
-  #barra-de-nav{
-    flex-direction: column;
-  }
-
-  .menu-plegado .barra-de-navegacion {
+  
+  .barra-de-navegacion {
     display: none;
   }
 }
