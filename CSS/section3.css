@@ -23,10 +23,14 @@
   text-align: center;
   align-items: center;
   justify-content: flex-start;
-  border: rgb(80, 80, 80) .2rem solid;
+  border: rgb(60, 60, 60) .2rem solid;
   border-radius: 1rem;
   padding: 2rem;
   gap: 7rem;
+}
+
+.articulos-global:hover{
+  background-color: rgb(34, 34, 34);
 }
 
 .imagen-articulos{
